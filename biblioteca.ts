@@ -88,11 +88,11 @@ class Biblioteca {
 //Creo instancias de biblioteca y de algunos libros
 
 
-const libro1 = new Libro("El Quijote", "Miguel de Cervantes", false);
-const libro2 = new Libro("La Odisea", "Homero", true);
-const libro3 = new Libro("El Alquimista", "Paulo Cohelo", true);
+const libro1:Libro = new Libro("El Quijote", "Miguel de Cervantes", false);
+const libro2:Libro = new Libro("La Odisea", "Homero", true);
+const libro3:Libro = new Libro("El Alquimista", "Paulo Cohelo", true);
 
-const biblioteca = new Biblioteca("Biblioteca 25 de Mayo", "Av. Rivadavia 323", "443363", "Las Flores", []);
+const biblioteca:Biblioteca = new Biblioteca("Biblioteca 25 de Mayo", "Av. Rivadavia 323", "443363", "Las Flores", []);
 
 //Agrego libros a la biblioteca...
 
